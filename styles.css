@@ -46,7 +46,7 @@ nav a {
   display: flex;
   /*margin: 100px;*/
   padding: 80px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .introone {
@@ -114,4 +114,23 @@ footer {
   text-align: center;
   padding: 30px;
   color: white;
+}
+
+
+.sectionfour {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 40px;
+  color: white;
+  margin: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionfour button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 10px;
+  float: right;
 }
